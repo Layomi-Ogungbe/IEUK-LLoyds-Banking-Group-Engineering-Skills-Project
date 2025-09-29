@@ -155,4 +155,4 @@ ip_stats['Requests per Minute'] = ip_stats['Total Requests'] / (ip_stats['Active
 
 # Flag IPs with high sustained frequency
 ip_stats['Frequent Requester'] = ip_stats['Requests per Minute'] > 1
-ip_stats.head(10) 
+ip_stats.head(10)
